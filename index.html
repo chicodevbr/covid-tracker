@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Painel Covid-19</title>
+</head>
+<body>
+    <h1 class="title">Covid-19 Tracker</h1>
+    <h2 class="subtitle">Dados mais recentes da covid-19</h2>
+    
+    <!-- stats por país -->
+
+    <div id="data-container">
+            <div class="stats-container">
+                <h4>Casos</h4>
+                <h1 id="cases"></h1>
+                <h4>Mortes</h4>
+                <h1 id="deaths"></h1>
+            </div>
+        </div>
+            
+        <div class="location-container">
+			<h4>País</h4>
+			<h1 id="country"></h1>
+			<h4>População</h4>
+			<h1 id="population"></h1>
+			
+		</div>
+        
+    </div>
+
+    <!-- global stats  -->
+    <h2 class="subtitle">Dados globais da Covid-19</h2>
+        
+        <div class="stats-container">
+            <h4>Total de casos</h4>
+            <h1 id="globalCases"></h1>
+            <h4>Total de mortes</h4>
+            <h1 id="globalDeaths"></h1>
+            <h4>Última atualização</h4>
+			<h1 id="update"></h1>
+        </div>
+    </div>      
+    
+    
+</div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
